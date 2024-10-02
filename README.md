@@ -523,7 +523,7 @@ expected = B(x=1, y=1, z=2)
 assert match(pattern, value) == expected
 ```
 
-replacemenets can also be used in nested structures:
+replacements can also be used in nested structures:
 
 ```py
 from koerce import match, Replace, var, namespace, NoMatch
