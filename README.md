@@ -44,7 +44,7 @@ In [3]: expr = (a + 1) * b["field"]
 In [4]: expr
 Out[4]: (($a + 1) * $b['field'])
 
-In [5]: resolve(expr, {"a": 2, "b": {"field": 3}})
+In [5]: resolve(expr, **{"a": 2, "b": {"field": 3}})
 Out[5]: 9
 ```
 
